@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TRULogining'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'LoginModual'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TRULogining/Classes/**/*'
   
+  s.subspec 'LoginModel' do |ss|
+      ss.source_files = 'TRULogining/Classes/LoginModel/**/*.{h,m}'
+  end
   # s.resource_bundles = {
   #   'TRULogining' => ['TRULogining/Assets/*.png']
   # }
