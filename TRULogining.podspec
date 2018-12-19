@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TRULogining/Classes/**/*'
+  #s.source_files = 'TRULogining/Classes/**/*'
   
   s.subspec 'LoginModel' do |ss|
       ss.source_files = 'TRULogining/Classes/LoginModel/**/*.{h,m}'
